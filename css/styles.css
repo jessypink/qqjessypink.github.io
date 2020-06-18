@@ -65,6 +65,40 @@ a.button15:active {
   border-radius: 12px;
 }
 
+a.button16 {
+  font-family: "ProductSansBold";
+  /*display: inline-block;*/
+  font-size: 20px;
+  color: WhiteSmoke;
+  text-decoration: none;
+  user-select: none;
+  padding: .6em .8em;
+  outline: none;
+  border: 0px solid rgba(0,0,0,.1);
+  border-radius: 10px;
+  border-color: WhiteSmoke;
+  background: #424242;
+  transition: all .22s ease 0s;
+}
+a.button16:hover {
+  color: rgb(24,24,24);
+  /*border: 10px solid rgb(198,198,198);*/
+  background: WhiteSmoke;
+  /*box-shadow: 0 1px 2px rgba(0,0,0,.1);*/
+  border-color: WhiteSmoke;
+}
+a.button16:active {
+  color: rgb(51,51,51);
+  border: 0px solid rgb(204,204,204);
+  background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(200,200,200));
+  /*box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;*/
+  transition: all .08s ease 0s;
+  border-radius: 10px;
+}
+
+
+
+
 body{
   background-color: #212121; /* Цвет фона веб-страницы */
 }
@@ -89,9 +123,9 @@ h2 {
 .menu {
    position: fixed; /* Фиксированное положение */
    right: 10px; /* Расстояние от правого края окна браузера */
-   top: 20%; /* Расстояние сверху */
+   top: 10%; /* Расстояние сверху */
    padding: 20px; /* Поля вокруг текста */
-   background: #424242; /* Цвет фона */
+   background: transparent; /* Цвет фона */
    border: 0px solid rgba(0,0,0,.1);
    border-radius: 15px;
    font-family: "ProductSansBold";
@@ -102,3 +136,20 @@ h2 {
   .text {
    height: 1000px;
   }
+
+ul {
+  font-family: "ProductSansBold";
+  color: White;
+  font-size: 25px;
+}
+
+li {
+  padding-bottom: 30px;
+}
+
+.vendors {
+font-family: "ProductSansRegular";
+color: gray;
+font-size: 20px;
+
+}

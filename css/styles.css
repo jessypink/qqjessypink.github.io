@@ -8,6 +8,13 @@ body
   -moz-user-select: none;
 }
 
+::selection {
+   background: transparent;
+}
+::-moz-selection {
+   background: transparent;
+}
+
 @font-face {
 font-family: "ProductSansRegular";
 src: url("../fonts/PSr.ttf") format("truetype");

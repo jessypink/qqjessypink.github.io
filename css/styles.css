@@ -3,7 +3,8 @@ body
   font-size: 35pt;
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: -20px;
   -webkit-user-select: none;
   -moz-user-select: none;
 }
@@ -41,6 +42,11 @@ font-family: "ProductSansLight";
 src: url("../fonts/PSl.ttf") format("truetype");
 font-style: normal;
 font-weight: normal;
+}
+
+a {
+  color: WhiteSmoke;
+  text-decoration: none;
 }
 
 a.button15 {
@@ -141,6 +147,12 @@ h2 {
    color: WhiteSmoke;
    border-color: WhiteSmoke; /* Параметры рамки */
   }
+
+  .logo {
+     position: fixed; /* Фиксированное положение */
+     right: 25px; /* Расстояние от правого края окна браузера */
+     bottom: 0%; /* Расстояние сверху */
+    }
 
   .text {
    height: 1000px;
